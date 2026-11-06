@@ -1,0 +1,67 @@
+body{
+    background-color: #ffa2a2;
+    background-image: url('background.jpg');
+}
+
+img.ukuran{
+    width: 400px;
+    height: 300px;
+}
+
+img.lengkungan{
+    border-radius: 0% 20% 0% 20%;
+    width: 250px;
+    height: 200px;
+}
+
+div.kelompok{
+    height: 400px;
+    width: 300px;
+    border-radius: 20%;
+    background-color: #4fedff;
+    text-align: center;
+    padding: 5px;
+}
+
+div.kelompok img{
+   height: 300px;
+   width: 250px;
+   border-radius: 20%;
+   border: 1px solid black;
+}
+
+div.efek{
+    height: 380px;
+    width: 350px;
+    border-radius: 20%;
+    background-color: #5bff4f;
+    text-align: center;
+    padding: 5px;
+}
+
+div.efek:hover img{
+    height: 300px;
+    width: 250px;
+    border-radius: 20%;
+}
+
+div.efek:hover{
+    height: 400px;
+    width: 300px;
+    background-color: #9c75fd;
+    box-shadow: 15px 15px 10px #282828;
+}
+
+p.internal{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.eksternal{
+    font-family: "abxcd";
+    font-size: 30px;
+}
+
+@font-face{
+    font-family: "abxcd";
+    src: url("");
+}

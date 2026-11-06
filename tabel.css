@@ -1,0 +1,65 @@
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+    margin: 20px auto;
+    width: 1000px;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+th,td{
+    padding: 5px;
+}
+
+tr{
+    background: linear-gradient(180deg, #adbbff 0%, #b8c6ff 100%);
+}
+
+tr:nth-child(even){
+    background: linear-gradient(180deg, #a4d8ff 0%, #bee1fd 100%);
+}
+
+tr:hover{
+    background-color: rgb(18, 0, 83);
+}
+
+table, th, td{
+    border: 2px solid;
+    border-color: rgb(10, 36, 79);
+    text-align: center;
+    padding: 10px;
+    font-family: "popin";
+    
+}
+@font-face{
+    font-family:"popin";
+    src: url(Poppins-Bold.ttf);
+}
+table{
+    border-collapse: collapse;
+    border-color:midnightblue;
+    color:rgb(14, 1, 90);
+}
+th:nth-child(even){
+    background-color:rgb(241, 147, 255);
+}
+th:nth-child(even):hover{
+    background-color:lightblue;
+}
+th:nth-child(odd){
+    background-color:rgb(195, 152, 255);
+}
+th:nth-child(odd):hover{
+    background-color:lemonchiffon;
+}
+body{
+    background-color:cornsilk;
+}
+h2{
+    text-align: center;
+    color: midnightblue;
+}
+
